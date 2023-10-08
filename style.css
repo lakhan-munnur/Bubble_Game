@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* above 2 lines are boiler plate of css */
+
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color:#9BB89C ;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+#nav
+{
+    width: 100%;
+    height: 100px;
+   background-color: #486748;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+#body{
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: aliceblue;
+   
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+#container
+{   width: 80%;
+    height: 90%;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.parameters
+{
+    width: 100px;
+    /* height: 10px; */
+    /* background-color: rgb(255, 241, 240); */
+    display: flex;
+    /* gap: 10px; */
+}
+.box
+{
+    width: 25px;
+    height: 18px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+.bubble
+{
+    width: 35px;
+    height: 35px;
+    background-color: #28ba28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+
